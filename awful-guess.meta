@@ -1,0 +1,7 @@
+((synopsis "An awful guess game")
+ (author "Mario Domenech Goulart")
+ (category web)
+ (license "BSD")
+ (depends awful)
+ (test-depends)
+ (foreign-depends))

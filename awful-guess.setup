@@ -1,0 +1,7 @@
+(compile -d0 -O3 -J -s awful-guess.scm)
+(compile -d0 -O3 -s awful-guess.import.scm)
+
+(install-extension
+ 'awful-guess
+ '("awful-guess.so" "awful-guess.import.so")
+ '((version "0.0.1")))

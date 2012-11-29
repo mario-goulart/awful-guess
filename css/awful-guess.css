@@ -1,0 +1,54 @@
+body
+{ font-family: arial, verdana, sans-serif;
+  font-size: 12pt; 
+  margin-left: 20px;
+  width: 800px;
+  color: #333;
+}
+
+#tip { font-weight: bold; }
+
+#awful {margin-top: 50px;}
+
+#attempts {text-decoration: line-through;}
+
+#past-tips { color: #ccc;}
+
+#right-attempt { color: white; background-color: #6EBD30; padding: 3px;}
+#wrong-attempt { color: white; background-color: #CA3209; padding: 3px;}
+
+#right {float: right; width: 390px}
+#left {float: left; width: 400px;}
+
+#history-table {
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 0px;
+    border-style: inset inset inset inset;
+    border-color: gray gray gray gray;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#history-table td, th {
+    font-size: 10pt;
+    border-width: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+    border-style: inset inset inset inset;
+    border-color: gray gray gray gray;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+
+#awful {margin-top: 200px; clear: both;}
+
+#ajax-busy
+{ z-index: 100;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-image: url("/img/ajax-loader.gif");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
